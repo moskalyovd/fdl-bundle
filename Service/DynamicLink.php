@@ -51,7 +51,7 @@ class DynamicLink
      * @param mixed $link
      * @param mixed $parameters
      *
-     * @return Psr\Http\Message\ResponseInterface
+     * @return mixed[]
      */
     public function createLink($link, $dynamicLinkInfo = null, $suffix)
     {
